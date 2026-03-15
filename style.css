@@ -1,0 +1,33 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+body{
+    background-color: #1e1e1e;
+}
+
+
+
+.header{
+    font-family: 'Cinzel Decorative', serif;
+    text-shadow:2px 4px 60px 10px gold;
+}
+
+
+.star::before {
+    content: '⭐';
+    font-size: 3rem;
+}
+
+.small-stars::before {
+    content: '✨✨';
+    font-size: 2rem;
+}
